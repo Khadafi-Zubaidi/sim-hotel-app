@@ -38,6 +38,22 @@
     <script src="{{asset('adminlte')}}/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
     <script src="{{asset('adminlte')}}/plugins/summernote/summernote-bs4.min.js"></script>
     <script>
+        $(function () {
+          $('#fasilitas1').summernote({
+                focus: true,
+                height: 250,
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+          $('#summernote').summernote({
+                focus: true,
+                height: 250,
+            });
+        });
+    </script>
+    <script>
     $(function () {
         $('#example1').DataTable({
             "paging": true,
